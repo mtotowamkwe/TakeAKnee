@@ -6,6 +6,13 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:buttonStyle">@style/NationalAnthemsButton</item>
+    </style>
+
+    <style name="NationalAnthemsButton" parent="android:style/Widget.Holo.Button">
+        <item name="android:background">@drawable/button_national_anthems</item>
     </style>
 
 </resources>
